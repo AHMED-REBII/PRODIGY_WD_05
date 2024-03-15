@@ -11,7 +11,7 @@ import cloud_icon from "../Assets/cloud.png";
 import clear_icon from "../Assets/clear.png";
 
 const WeatherApp = () => {
-  let api_key = "128a69d968e6717ed00093f2ca849c9f ";
+  let api_key = "USE YOUR OWN KEY ";
   const [wicon, setWicon] = useState(cloud_icon);
 
   const search = async () => {
